@@ -1,2 +1,1 @@
-# vftvk-Simple-Interest-Calculator
-ibm course
+# coding-project-template
