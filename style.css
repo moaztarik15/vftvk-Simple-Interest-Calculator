@@ -1,32 +1,32 @@
-/* Step 5 of 8 
-Exercise 3 : Modify the css file.
-In this exercise, you will correct the look and feel of the web page.
-
-Set the body color to 'black', font to arial and font color to white.
-
-Set the <h1> color to 'grey' and font to verdana.
-
-Create an entry for class 'maindiv'.
-
-Set the background color to white, font color to black, width to 300 pixels, and padding to 20px in the newly created maindiv class.
-
-Set the border radius to 25 px.
-
-Align the div to the center of the page.
-
-Visualize your html file in the browser and make sure that you have not missed anything.*/
-body {background-color:black;
-font: arial;
-color: white;}
-h1{color:grey;}
+body {
+    background-color:black;
+    font: arial;
+    color: white}
+h1{
+    color: grey;
+    font: verdana;
+    font-size: 150%;}
 .maindiv {
     background-color: white;
     color: black;
-    width:300px;
+    width: 300px;
     padding: 20px;
     border-radius: 25px;
-    margin-left: auto;
-    margin-right: auto;    
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); 
+    text-align: center;
+    
 }
-
-
+.inputdiv {
+    text-align: left;
+    display: inline-block;
+    font-size: 12px;
+}
+#footer {
+    text-align: left;
+}
+.numbers {
+    background-color: yellow; 
+}
